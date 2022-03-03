@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(0, 0%, 98%) !important;
+}
+
+.card-position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  align-items: center;
+}
+
+.card {
+	width: 20rem;
+	margin: 15px;
+}
+
+#supervisor-card {
+	border-top: 5px solid hsl(180, 62%, 55%);
+	transform: translateY(50%);
+}
+
+
+#tb-card {
+	border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+
+#calc-card {
+	border-top: 5px solid hsl(212, 86%, 64%);
+	transform: translateY(50%);
+}
+
+
+#karma-card {
+	border-top: 5px solid hsl(34, 97%, 64%) ;
+}
+
+
+@media (max-width: 775px) {
+	#supervisor-card, #calc-card {
+		transform: translateY(0);
+	}
+}
