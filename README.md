@@ -56,7 +56,7 @@ future projects.
 ## Acknowledgements
 
 I want to give a shoutout to UdemeSamuel's [CodeSandbox solution](https://codesandbox.io/s/5g904).
-I used the following code to layout all four cards:
+I used the following code to arrange all four cards:
 
 ```
 .page2 {
