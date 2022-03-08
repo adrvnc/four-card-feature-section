@@ -13,6 +13,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview 
 
@@ -51,3 +52,22 @@ future projects.
 
 - [CSS flex-wrap property](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) - This property helped me place the "karma" card on top of the "team builder" card. It's perfect for stacking items on top of each other.
 - [TranslateY()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY()) - This function helped me move the "supervisor" card and the "calculator" card down to their current position. Use this to reposition elements vertically.
+
+## Acknowledgements
+
+I want to give a shoutout to UdemeSamuel's [CodeSandbox solution](https://codesandbox.io/s/5g904).
+I used the following code to layout all four cards:
+
+```
+.page2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  align-items: center;
+}
+
+``` 
+The code was easy to understand and follow. Afterward, I did more
+research to have a more in-depth understanding of `flex-wrap`. 
